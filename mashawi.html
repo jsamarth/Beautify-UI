@@ -1,0 +1,520 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- BEGIN html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<!-- BEGIN head -->
+<head>
+	<!-- Title -->
+	<title>
+		Mashawi Grill | Fresh Mediterranean Kitchen  |  Mediterranean Restaurant Torrance		</title>
+
+		<!-- Meta Tags -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="http://www.mashawigrill.com/wp-content/themes/mashawi/images/favicon.ico" type="image/x-icon" />
+		
+		<!-- Stylesheets -->
+		<link id="main_stylesheet" rel="stylesheet" href="http://www.mashawigrill.com/wp-content/themes/mashawi/css/sexy-slider.css" type="text/css" />
+		<link rel="stylesheet" href="http://www.mashawigrill.com/wp-content/themes/mashawi/css/main-stylesheet.css" type="text/css" />
+		<link rel="stylesheet" href="http://www.mashawigrill.com/wp-content/themes/mashawi/css/content-slider.css" type="text/css" />
+		<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" type="text/css" /><![endif]-->
+
+		
+		<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+		<link rel="canonical" href="http://www.mashawigrill.com/" />
+		<!-- / Yoast WordPress SEO plugin. -->
+
+		<script type='text/javascript' src='http://www.mashawigrill.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+		<script type='text/javascript' src='http://www.mashawigrill.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+		<script type="text/javascript">	
+			
+			jQuery(document).ready(function() {
+				var showChar = 350;
+				var ellipsestext = "-...";
+				var moretext = "Read more";
+				var lesstext = "less";
+				jQuery('.testimonials_content_cont p').each(function() {
+					var content = jQuery(this).html();
+
+					if(content.length > showChar) {
+
+						var c = content.substr(0, showChar);
+						var h = content.substr(showChar, content.length - showChar);
+
+						var html = c + '<span class="moreelipses">'+ellipsestext+'</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+
+						jQuery(this).html(html);
+					}
+
+				});
+
+				jQuery(".morelink").click(function(){
+					if(jQuery(this).hasClass("less")) {
+						jQuery(this).removeClass("less");
+						jQuery(this).html(moretext);
+					} else {
+						jQuery(this).addClass("less");
+						jQuery(this).html(lesstext);
+					}
+					jQuery(this).parent().prev().toggle();
+					jQuery(this).prev().toggle();
+					return false;
+				});
+			});
+			
+		</script>
+		<style>.morecontent span {
+			display: none;
+
+		}</style>
+
+		
+		<!-- Scripts --> 
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/jquery.min.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/jquery.sexyslider.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/jquery.contentslider.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/cufon-yui.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/museo.font.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/jquery.tinytips.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/jquery.menucardslider.js" type="text/javascript"></script>
+		<script src="http://www.mashawigrill.com/wp-content/themes/mashawi/js/scripts.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('.menu > ul > li', { hover: true, hoverables: { li: true }, ignore: { ul: true } } );
+			Cufon.replace('.sexyslider-title a', { textShadow: '#000 0 1px', hover: 'true' } );
+			Cufon.replace('.homepage-columns-item .title', { textShadow: '#47250f 0 1px' } );
+			Cufon.replace('.main-title span', { textShadow: '#560000 0 1px' } );
+			Cufon.replace('.menu-card-title', { textShadow: '#560000 0 1px' } );
+			Cufon.replace('.show-all', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.price', { textShadow: '#a11b00 0 1px' } );
+			Cufon.replace('h2, h3, h4, h5, h6', { hover: 'true' } );
+			Cufon.replace('.no-logo p', { textShadow: '#4b4b4b 0 1px' } );
+			Cufon.replace('.date', { hover: 'true' } );
+			Cufon.replace('.pages a', { hover: 'true' } );
+			Cufon.replace('.news-title a', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('blockquote', { hover: 'true' } );
+			Cufon.replace('.menu-card .item .title a', { hover: 'true' } );
+			Cufon.replace('.photo-gallery-open .nr', { hover: 'true' } );
+			Cufon.replace('.btn-1-color-default', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-color-grey', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-color-red', { textShadow: '#3e0000 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-color-yellow', { textShadow: '#f5d399 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-color-green', { textShadow: '#234b04 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-color-blue', { textShadow: '#022842 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-1-disabled', { textShadow: 'none' } );
+			Cufon.replace('.btn-2-color-default', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-color-grey', { textShadow: '#fff 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-color-red', { textShadow: '#3e0000 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-color-yellow', { textShadow: '#f5d399 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-color-green', { textShadow: '#234b04 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-color-blue', { textShadow: '#022842 0 1px', hover: 'true' } );
+			Cufon.replace('.btn-2-disabled', { textShadow: 'none' } );
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#homepage-slider").SexySlider({
+
+					auto            : true,
+					autopause       : true,
+					delay : 5000,				 
+					
+					titlePosition : 'right', 
+					direction : 'alternate', 
+					effect : 'fade', 
+					onTitleHide     : function() { Cufon.replace('.sexyslider-title a', { textShadow: '#3e0000 0 1px', hover: 'true' } ); } 				});
+			});
+		</script>
+		
+		<script type="text/javascript">
+			function addLoadEvent(func) { 
+				var oldonload = window.onload;
+				if(typeof window.onload != 'function') {
+					window.onload = func;
+				}else{
+					window.onload = function() {
+						if(oldonload) {
+							oldonload();
+						}
+						
+					}
+				}
+			}
+		</script>
+		
+
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				// hide #back-top first
+				// $("#back-top").hide();
+				
+				// fade in #back-top
+				$(function () {
+					$(window).scroll(function () {
+						if ($(this).scrollTop() > 100) {
+							$('.back-top').fadeIn();
+						} else {
+							$('.back-top').fadeOut();
+						}
+					});
+
+					// scroll body to 0px on click
+					$('.back-top a').click(function () {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 800);
+						return false;
+					});
+				});
+
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('a.tTip').tinyTips('title');
+			});
+		</script>
+		<link rel="alternate" type="application/rss+xml" href="http://www.mashawigrill.com/feed/" title="Mashawi Grill latest posts" />
+		<link rel="alternate" type="application/rss+xml" href="http://www.mashawigrill.com/comments/feed/" title="Mashawi Grill latest comments" />
+		<link rel="pingback" href="http://www.mashawigrill.com/xmlrpc.php" />
+		<script type="text/javascript"> 
+			jQuery(document).ready(function(){	
+				document.getElementById('audio_play').addEventListener('ended', function(){ this.currentTime = 0; }, false);
+			});
+		</script>
+		<!-- END head -->
+	</head>
+	
+	<!-- BEGIN body -->
+	<body class="home page page-id-92 page-template page-template-template-homepage-php top">
+		<!-- BEGIN .container -->
+		<div class="container">
+
+			<!-- BEGIN .main-header-wrapper -->
+			<div class="main-header-wrapper">
+				
+				<!-- BEGIN .header -->
+				<div class="header">
+					<!-- BEGIN .logo -->
+					<div class="logo">
+						
+						<a href="http://www.mashawigrill.com"><img src="http://www.mashawigrill.com/wp-content/uploads/2012/01/logo.jpg" alt="Mashawi Grill" /></a>					
+						<!-- END .logo -->
+					</div>
+					
+					<!-- END .header -->	
+				</div>
+				
+				<!-- END .main-header-wrapper -->
+			</div>
+			<!-- BEGIN .menu-primary-wrapper -->
+			<div class="menu-primary-wrapper">
+				
+				<!-- BEGIN .menu-primary -->
+				<div class="menu-primary">
+					<table>
+						<tr>
+							<td class="menu">
+								<ul id="menu-top-navigation" class="menu"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-18"><a href="http://www.mashawigrill.com"><i>Home</i></a></li>
+									<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="http://www.mashawigrill.com/our-story/"><i>Our Story</i></a></li>
+									<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="http://www.mashawigrill.com/our-menu/"><i>Our Menu</i></a></li>
+									<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="http://www.mashawigrill.com/catering/"><i>Catering</i></a></li>
+									<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="http://www.mashawigrill.com/reviews/"><i>Reviews</i></a></li>
+									<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="http://www.mashawigrill.com/faq/"><i>FAQ</i></a></li>
+									<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.mashawigrill.com/contact-us/"><i>Contact Us</i></a></li>
+								</ul>							</td>
+							</tr>
+						</table>
+						
+						<!-- END .menu-primary -->
+					</div>
+
+					<!-- END .menu-primary-wrapper -->
+				</div>
+
+
+				
+				<!-- BEGIN .homepage-slider-wrapper -->
+				<div class="homepage-slider-wrapper">
+					
+					<!-- BEGIN .homepage-slider -->
+					<div class="homepage-slider">
+						
+						<div id="control"></div>
+						
+						<span class="border-overlay">&nbsp;</span>
+						
+						
+						<div id="homepage-slider">
+							<img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=/wp-content/uploads/2013/02/main-banner-update.jpg&amp;w=950&amp;h=350&amp;zc=1&amp;q=100" alt="&lt;a href=&quot;&quot;&gt;&lt;b&gt;Our Newest Location&lt;/b&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;" width="950" height="350" />
+
+							<img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=/wp-content/uploads/2011/12/chiken-kabob.jpg&amp;w=950&amp;h=350&amp;zc=1&amp;q=100" alt="&lt;a href=&quot;http://www.mashawigrill.com/our-menu/#Kebob&quot;&gt;&lt;b&gt;Char Broiled Chicken Kebob&lt;/b&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;" width="950" height="350" />
+
+							<img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=/wp-content/uploads/2011/12/Lamb-Kebob-slider.jpg&amp;w=950&amp;h=350&amp;zc=1&amp;q=100" alt="&lt;a href=&quot;http://www.mashawigrill.com/our-menu/#Kebob&quot;&gt;&lt;b&gt;Marinated Charbroiled Shish Kebob&lt;/b&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;" width="950" height="350" />
+
+							<img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=/wp-content/uploads/2011/12/Tri-Tip-Shawarma-Plate-slider.jpg&amp;w=950&amp;h=350&amp;zc=1&amp;q=100" alt="&lt;a href=&quot;http://www.mashawigrill.com/our-menu/#Plates&quot;&gt;&lt;b&gt;Tri Tip Shawarma Plate&lt;/b&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;" width="950" height="350" />
+
+							<img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=/wp-content/uploads/2012/01/lebanon-port.jpg&amp;w=950&amp;h=350&amp;zc=1&amp;q=100" alt="&lt;a href=&quot;http://www.mashawigrill.com/about-us/&quot;&gt;&lt;b&gt;Cuisine from Lebanon&lt;/b&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;" width="950" height="350" />
+
+							
+						</div>
+						<!-- BEGIN .navigation -->
+						<div id="navigation" style="display:none"></div>		
+						
+					</div>
+				</div>
+				<!-- BEGIN .content-wrapper -->
+				<div class="content-wrapper">
+					
+					<!-- BEGIN .content -->
+					<div class="content">
+						
+						<!-- BEGIN .homepage-wrapper -->
+						<div class="homepage-wrapper itshomepage">
+							
+							
+							
+							<table>
+								<tr>
+
+									<!-- BEGIN .homepage-about -->
+									<td class="full-width-content-wrapper mashawihome">
+										
+										<div class="top"></div>
+										<div class="content-wrapper">
+											<div class="content">
+												
+												<div class="main-title">
+													<span><b><strong>Ma•sha•wi</strong><i> -verb-</i> meaning roasted over fire</b></span>
+													<a href="http://www.mashawigrill.com/our-menu/"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/images/view-full-menu.png" alt="View Full Menu" /></a>
+												</div>
+
+												<p class="caps">Anyone trying to describe the flavor of Mediterranean cuisine would start by mentioning the herbs and spices typically used. The fragrance, flavor and of course its wonderful aromatic spices make it exceptional. The herbs and spices are not only the foundation for this type of cooking they are the cornerstone that makes this cuisine unique. Our passion for Mediterranean food along with our experience for taste will stimulate your palate. At Mashawi Grill we are committed to providing the freshest, best quality Mediterranean cuisine, while at the same time preparing things that are healthy for you from our kitchen. This means we are dedicated to providing the highest quality USDA choice meats, fresh fish, free range poultry - with no hormones or artificial preservatives and of course the freshest vegetables from our local markets. Come and try Mashawi Grill today, we guarantee you will come back time and time again…<br /><br /></p>
+												
+												<div class="main-spacer">&nbsp;</div>
+												
+												<!-- BEGIN .menu-display-1-wrapper -->
+												<div class="menu-display-1-wrapper">
+													
+													<div class="menu-display-1">
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Plates" title="Tri Tip Shawarma Plate"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Tri-Tip-Shawarma-Plate.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Tri Tip Shawarma Plate" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Plates" title="Tri Tip Shawarma Plate">Tri Tip Shawarma Plate</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Plates" title="Chicken Shawarma Plate"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Chicken-Shawarma-Plate.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Chicken Shawarma Plate" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Plates" title="Chicken Shawarma Plate">Chicken Shawarma Plate</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Plates" title="Fresh Home Made Falafel"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Falafel-Plate.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Fresh Home Made Falafel" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Plates" title="Fresh Home Made Falafel">Fresh Home Made Falafel</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Plates" title="Fries Drizzled with Fresh Garlic Feta and Parmesan Cheese"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Garlic-Fries.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Fries Drizzled with Fresh Garlic Feta and Parmesan Cheese" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Plates" title="Fries Drizzled with Fresh Garlic Feta and Parmesan Cheese">Fries Drizzled with Fresh Garlic Feta and Parmesan Cheese</a></h5>
+															
+														</div>
+														
+														
+														
+														<div class="main-spacer">&nbsp;</div>																								
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Salads" title="“Mashawi Salad”  our most popular salad"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Garden-Salad.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="“Mashawi Salad”  our most popular salad" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Salads" title="“Mashawi Salad”  our most popular salad">“Mashawi Salad”  our most popular salad</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Kebob" title="Marinated Charbroiled Shish Kebob"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Lamb-Kebob.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Marinated Charbroiled Shish Kebob" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Kebob" title="Marinated Charbroiled Shish Kebob">Marinated Charbroiled Shish Kebob</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/our-menu/#Kebob" title="Marinated Char Broiled Chicken Kebob"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2011/12/Chicken-Kebob1.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Marinated Char Broiled Chicken Kebob" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/our-menu/#Kebob" title="Marinated Char Broiled Chicken Kebob">Marinated Char Broiled Chicken Kebob</a></h5>
+															
+														</div>
+														
+														
+														
+														
+														
+														
+														<div class="item">
+															<a href="http://www.mashawigrill.com/contact-us/#contact-us" title="Our Newest Location"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/timthumb.php?src=http://www.mashawigrill.com/wp-content/uploads/2013/02/medium-banner-update.jpg&amp;w=395&amp;h=250&amp;zc=1&amp;q=100" alt="Our Newest Location" width="395" height="250" /></a>
+															<h5><a href="http://www.mashawigrill.com/contact-us/#contact-us" title="Our Newest Location">Our Newest Location</a></h5>
+															
+														</div>
+														
+														
+														
+														<div class="main-spacer">&nbsp;</div>																								
+														
+														<div class="clear"></div>
+
+													</div>
+													
+													<!-- END .menu-display-1-wrapper -->	
+												</div>
+											</div>
+											
+											<p class="show-all"><a href="http://www.mashawigrill.com/our-menu/"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/images/view-full-menu.png" alt="View Full Menu" /></a></p>
+											
+										</div>
+										
+										
+										
+										
+										
+									</td>
+									<!-- END .homepage-about -->
+									
+								</tr>
+								
+								<tr>
+									<td class="full-width-content-wrapper-bottom"></td>
+								</tr>
+								
+							</table>
+							
+							<!-- END .homepage-wrapper -->
+						</div>
+
+
+						<!-- END .content -->
+					</div>
+					
+					<!-- END .content-wrapper -->
+				</div>
+				<div class="clear-footer"></div>
+				
+				<!-- END .container -->
+			</div>			
+			
+			<!-- BEGIN .main-footer-wrapper -->
+			<div class="main-footer-wrapper">	
+				
+				<!-- BEGIN .footer -->
+				<div class="footer">			
+					
+					
+					
+					<table>
+						<tr>
+							
+							<td class="contact-information-wrapper">
+								<h3>Contact Information</h3>
+								<div class="address">
+									<p><b>Mashawi Grill</b></p>
+									<p>3901 Inglewood Ave., Suite 101 <br />Redondo Beach, CA 90278  <br /> Phone : (310) 644-2800</p>
+								</div>
+								<div class="address">
+									<p>25362 Crenshaw Blvd. <br />Torrance,CA 90505 <br /> Phone : (310) 325-3545</p>
+								</div>
+								<div class="email">
+									<p><a href="http://www.mashawigrill.com/contact-us">Email Us</a></p>
+								</div>
+							</td>
+							
+							
+							
+							<td class="social-networks-wrapper">
+								<h3>Find Us On</h3>
+								<ul>
+									
+									<li class="yelp"><a href="http://www.yelp.com/biz/mashawi-grill-torrance-2" target="_blank">Follow us on <b>Yelp</b></a></li>
+									
+								</ul>
+							</td>
+							
+							
+							<td class="map-wrapper">
+								<h3>Where To Find Us</h3>
+								<div class="map">
+									<a href="http://www.mashawigrill.com/contact-us/#contact-us" title="Location Map"><img src="http://www.mashawigrill.com/wp-content/themes/mashawi/images/google-map.jpg" alt="Location Map" title="Location Map" /></a>
+								</div>
+							</td>
+							
+						</tr>
+					</table>
+
+					<!-- END .footer -->
+				</div>
+				
+				<!-- END .main-footer-wrapper -->
+			</div>
+
+
+			<!-- BEGIN .main-footer-wrapper-2 -->
+			<div class="main-footer-wrapper-2">
+				
+				<!-- BEGIN .footer-2 -->
+				<div class="footer-2">
+					
+					<div class="left">
+						<div class="footermenu">
+							
+							<div class="menu-footer-navigation-container"><ul id="menu-footer-navigation" class="footermenu"><li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a href="http://www.mashawigrill.com/terms-and-conditions/">Terms and Conditions</a></li>
+								<li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9"><a href="http://www.mashawigrill.com/privacy-policy/">Privacy Policy</a></li>
+							</ul></div>			
+							<div class="info">&copy; 2017 Mashawi Grill, World Wide Rights Reserved</div>
+						</div>
+					</div>
+					
+					<div class="right">
+						<a href="http://www.easywebdesign123.com/" title="Eesy Web Design 123" target="_blank">Web Design</a> &amp; <a href="http://www.easywebdesign123.com/" title="Eesy Web Design 123" target="_blank">Web Development</a> by <a href="http://www.easywebdesign123.com/" title="Eesy Web Design 123" target="_blank">Easy Web Design 123</a>
+					</div>
+					
+					<!-- END .footer-2 -->
+				</div>
+				
+				<!-- END .main-footer-wrapper-2 -->
+			</div>
+			
+			<script type='text/javascript' src='http://www.mashawigrill.com/wp-content/plugins/lazy-load/js/jquery.sonar.min.js?ver=0.5'></script>
+			<script type='text/javascript' src='http://www.mashawigrill.com/wp-content/plugins/lazy-load/js/lazy-load.js?ver=0.5'></script>
+			
+		</body>
+		</html>

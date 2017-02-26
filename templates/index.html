@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+  <title>Mobile-friendly Site Generator</title>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="center-align">Mobile-friendly Site Generator</h1>
+
+    <p class="center-align">Enter a URL below and hit enter, and we'll provide a page with that will be mobile-friendly!</p>
+
+    <br/>
+    <br/>
+    <br/>
+    <form action="http://localhost:5000/check" method="get">
+      <div class="input-field center-align">
+        <input placeholder="http://" name="url" type="text" class="validate">
+      </div>
+      <button class="btn waves-effect waves-light center-align" type="submit" name="action">Submit</button>
+
+    </form>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  </div>
+  
+
+</body>
+</html>
